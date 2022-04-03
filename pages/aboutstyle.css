@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-align: center;
+  }
+  /* nav bar */
+.header{
+    position:fixed;
+    background-color: rgb(201, 37, 37) ;
+    top:0;
+    width:100%;
+    z-index:100;
+    text-align:right;
+}
+.about{
+    display: inline-flex;
+
+    color: white;
+    padding: 16px;
+    font-weight: bold;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+/* hover balck color effect */
+p:hover{
+    background-color: black;
+}
+.contact, .work{
+    display: inline-flex;
+    color: white;
+    font-weight: bold;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 16px;
+}
+.contact{
+    
+    margin-right: 100px;   
+}
+  
+.img{
+    width: 30%;
+    height: 600px;
+    float: left;
+}
+  .container{
+    margin-top: 30px;
+    align-items: center;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.2);
+    margin: 8px;
+    height: 100%;
+    width:50% ;
+    float: left;
+    margin-left: 120px;
+    
+  }
+  
+    
+  .designation {
+    color: grey;
+    text-align: center;
+  }
+  
+
+
